@@ -1,0 +1,56 @@
+# Python compiled files
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+# Byte-compiled and optimized files
+*.pyo
+
+# Virtual environment
+new_env/
+
+# Sensitive data
+*.env
+config.json
+
+# Logs and debug output
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# PyInstaller build artifacts
+dist/
+build/
+*.spec
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.orig
+~$*
+
+# IDE specific
+.idea/
+.vscode/
+*.code-workspace
+
+# Temporary directories
+/tmp/
+receipts/
+
+# Output PDFs and receipts
+*.pdf
+
+# Credential files
+*.key
+*.crt
+
+# Ignore signature and stamp images (add these explicitly to the repo if necessary)
+sign.jpg
+stamp.jpg
