@@ -71,20 +71,20 @@ def generate_receipt(data, output_path):
 
     # Title Section
     c.setFont("Helvetica-Bold", 14)
-    c.drawCentredString(width / 2, top_y - 0.5 * inch, "BOMBAY YOGAKSHEMA SABHA (Regd.)")
+    c.drawCentredString(width / 2, top_y - 0.5 * inch, "Name of the Organisation")
 
     # Sub-header and contact details
     c.setFont("Helvetica", 10)
-    c.drawCentredString(width / 2, top_y - 0.8 * inch, "(Reg. Under the Society's Reg. Act 1960 No. 26/76 G.B.B.S.D. Bombay)")
-    c.drawCentredString(width / 2, top_y - 1.0 * inch, "(Reg. Under the Bombay Public Trust Act 1950 No. F3873 Bombay)")
+    c.drawCentredString(width / 2, top_y - 0.8 * inch, "(Reg. Under the Society's Reg. Act XYZ 1234)")
+    c.drawCentredString(width / 2, top_y - 1.0 * inch, "(Reg. Under the Bombay XYZ")
     c.line(1 * inch, top_y - 1.2 * inch, 7.5 * inch, top_y - 1.2 * inch)
 
     # Admin Office Information and PAN
-    c.drawCentredString(width / 2, top_y - 1.5 * inch, "Admn. Office : G-2, Nav Haridarshan CHS. Ltd., Jai Hind Colony, G. Gupte Road,")
-    c.drawCentredString(width / 2, top_y - 1.7 * inch, "Dombivli (West) 421 201")
-    c.drawCentredString(width / 2, top_y - 1.9 * inch, "(I.T. Exemption No. THN/ CIT-I/Tech-I/80 G/389/2007-08/3031)")
+    c.drawCentredString(width / 2, top_y - 1.5 * inch, "Admn. Office Give Address Here")
+    c.drawCentredString(width / 2, top_y - 1.7 * inch, "Give Address here")
+    c.drawCentredString(width / 2, top_y - 1.9 * inch, "Give Details here")
     c.setFont("Helvetica-Bold", 12)
-    c.drawCentredString(width / 2, top_y - 2.4 * inch, "PAN No. AAAAB4113E")
+    c.drawCentredString(width / 2, top_y - 2.4 * inch, "PAN No. ABCDEE")
 
     # Receipt Details
     c.setFont("Helvetica", 10)
@@ -125,7 +125,7 @@ def generate_receipt(data, output_path):
     c.setFont("Helvetica", 12)
     amount = int(data['Amount'])
     c.drawString(1.2 * inch, top_y - 4.6 * inch, f"RS. {amount} /-")
-    c.drawRightString(6.8 * inch, top_y - 6.1 * inch, "For Bombay Yogakshema Sabha (Regd.)")
+    c.drawRightString(6.8 * inch, top_y - 6.1 * inch, "For Organisation Name")
 
 
 
